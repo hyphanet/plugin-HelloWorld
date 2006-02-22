@@ -26,15 +26,4 @@ public class HelloWorld implements FredPlugin {
 		}
 	}
 	
-	public boolean handles(int thing) {
-		switch (thing) {
-			case FredPlugin.handleFproxy: return false;
-			//We don't handle it
-		}
-		return false;
-	}
-
-	public String handleHTTPGet(String path){
-		return null;
-	}
 }
