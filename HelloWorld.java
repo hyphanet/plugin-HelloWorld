@@ -35,5 +35,6 @@ public class HelloWorld implements FredPlugin {
 	}
 
 	public String handleHTTPGet(String path){
+		return null;
 	}
 }
