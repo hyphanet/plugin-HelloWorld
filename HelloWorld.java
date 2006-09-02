@@ -1,4 +1,4 @@
-package plugins;
+package plugins.HelloWorld;
 
 import freenet.pluginmanager.*;
 
