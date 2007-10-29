@@ -21,7 +21,7 @@ public class HelloWorld implements FredPlugin {
 			try {
 				Thread.sleep(1000);
 			} catch (InterruptedException e) {
-				e.printStackTrace();
+				// Who cares ?
 			}
 		}
 	}
