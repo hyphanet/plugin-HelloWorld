@@ -6,7 +6,7 @@ import java.util.Date;
 
 
 public class HelloWorld implements FredPlugin {
-	boolean goon = true;
+	private volatile boolean goon = true;
 	PluginRespirator pr;
 
 	public void terminate() {
